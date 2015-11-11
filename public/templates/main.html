@@ -1,0 +1,53 @@
+<div class="jumbotron">
+	<div class="container"><h1>Neophyte Goodies</h1></div>
+		
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="pad">
+			<div class="row">
+				<h1><span class="{{vm.champ.place.color}}">{{vm.champ.place.text}}</span> Champ</h1>
+			</div>
+			<div class="row">
+				<h3 class="red">Red Marks: {{vm.champ.total}}</h3>
+			</div>
+			<div class="row scrollable">
+				<div ng-repeat="text in vm.champ.text track by $index" class="alert alert-info" role="alert">
+					<p class="alert-link">{{text}}</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="pad">
+			<div class="row">
+				<h1><span class="{{vm.ian.place.color}}">{{vm.ian.place.text}}</span> Ian</h1>
+			</div>
+			<div class="row">
+				<h3 class="red">Red Marks: {{vm.ian.total}}</h3>
+			</div>
+			<div class="row scrollable">
+				<div ng-repeat="text in vm.ian.text track by $index" class="alert alert-info" role="alert">
+					<p class="alert-link">{{text}}</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="pad">
+			<div class="row">
+				<h1><span class="{{vm.miles.place.color}}">{{vm.miles.place.text}}</span> Miles</h1>
+			</div>
+			<div class="row">
+				<h3 class="red">Red Marks: {{vm.miles.total}}</h3>
+			</div>
+			<div class="row scrollable">
+				<div ng-repeat="text in vm.miles.text track by $index" class="alert alert-info" role="alert">
+					<p class="alert-link">{{text}}</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>

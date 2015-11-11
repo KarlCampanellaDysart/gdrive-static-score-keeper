@@ -1,0 +1,19 @@
+{
+  "name": "goodie_backend",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Karl Campanella-Dysart <karlcd@me.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

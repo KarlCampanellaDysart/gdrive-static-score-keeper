@@ -1,0 +1,16 @@
+{
+  "name": "goodie_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "google-spreadsheet": "^1.0.1",
+    "node-schedule": "^0.3.0"
+  }
+}

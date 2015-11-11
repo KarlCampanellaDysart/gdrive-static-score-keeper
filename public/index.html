@@ -1,0 +1,28 @@
+<html ng-app="liveGoodies">
+<head>
+	<title>Goodies</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <style type="text/css">
+  .pad{
+  	padding: 10px;
+  }
+  .red{
+  	color: red;
+  }
+
+  .scrollable{
+  	height: 400px;
+  	overflow: scroll;
+  }
+  </style>
+</head>
+<body>
+	<div ng-view></div>
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/bower_components/angular-route/angular-route.min.js"></script>
+	<script src="/app.js"></script>
+	<script src="/controllers/mainController.js"></script>
+
+</body>
+</html>
